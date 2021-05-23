@@ -19,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Lint source code with Prettier
-        run: npx prettier --check "prettier --check '**/*.{js,jsx,ts,tsx}'"
+        run: npx prettier --check "'**/*.{js,jsx,ts,tsx}'"
